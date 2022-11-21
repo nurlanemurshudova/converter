@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+
+
 body {
     margin: 0;
     padding: 0;
@@ -7,22 +10,21 @@ body {
 nav {
     display: flex;
     background: #F5F5F6;
-    justify-content: center;
+    justify-content: space-between;
+    height: 9.3vh;
 }
 
 .logo img {
-    margin-top: 3.5vh;
-    width: 18vh;
+    margin-left: 8vw;
+    margin-top: 3vh;
 }
 
 .menu ul {
     display: flex;
     justify-content: space-around;
     margin-right: 5vw;
-}
-
-.menu ul li {
-    list-style: none;
+    list-style-type: none;
+    margin-top: 3vh;
 }
 
 .menu ul li a:hover {
@@ -33,7 +35,6 @@ nav {
     text-decoration: none;
     margin-right: 1.5vw;
     font-weight: 500;
-    font-size: 10px;
     letter-spacing: 0.06em;
     color: #959BA4;
 }
@@ -43,50 +44,55 @@ nav {
 }
 
 nav .btn-back {
-    height: 7.5vh;
-
-    font-weight: 500;
-    font-size: 10px;
-    display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
-    margin-top: 1.2vw;
     border-style: none;
     background-color: white;
     border-radius: 5px;
+    margin-right: 7vw;
+    margin-top: 1.5vh;
+    width: 5vw;
+    height: 5.5vh;
 }
 
 
 .section {
-    margin-left: 21vw;
+    margin-left: 22vw;
     margin-top: 9vh;
-
-}
-
-h1 {
-    font-weight: 700;
 }
 
 .box {
     display: flex;
+    color: #959BA4;
 }
 
 .box button {
+    background-color: white;
     border: 1px solid #959BA4;
-    width: 7.4vw;
-    height: 7vh;
-    border-radius: 3px 0px 0px 3px;
+    color: #959BA4;
+    margin-right: -6px;
+    padding: 10px 30px;
+    border-radius: 3px;
 }
 
-.active,
-.btn:hover {
-    background: #833AE0;
+.box button:nth-child(2){
+    background-color: #833AE0;
     color: white;
 }
 
 .box p{
-font-weight: 400;
-font-size: 12px;
 color: #9F9F9F;
+}
+
+input{
+    margin-top: 2vw;
+    border: 1px solid #E5E5E5;
+    border-radius: 3px;
+    width: 21.6vw;
+    padding: 15px 0px 100px 20px;
+    font-size: 35px;
+}
+
+.box .activeButton{
+    background-color: #833AE0 !important;
+    color: white;
 }
