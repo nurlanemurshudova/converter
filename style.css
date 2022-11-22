@@ -74,11 +74,6 @@ nav .btn-back {
     border-radius: 3px;
 }
 
-.box button:nth-child(2){
-    background-color: #833AE0;
-    color: white;
-}
-
 .box p{
 color: #9F9F9F;
 }
@@ -92,7 +87,7 @@ input{
     font-size: 35px;
 }
 
-.box .activeButton{
+.activeButton{
     background-color: #833AE0 !important;
-    color: white;
+    color: white !important;
 }
