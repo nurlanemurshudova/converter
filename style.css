@@ -91,3 +91,9 @@ input{
     background-color: #833AE0 !important;
     color: white !important;
 }
+
+
+.online-prince , .online-currency{
+    margin-top: -4vh;
+    margin-left: 1vw;
+}

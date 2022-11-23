@@ -2,10 +2,11 @@ const curInput1 = document.querySelector("#first-input");
 const curInput2 = document.querySelector("#second-input");
 const leftButtons = document.querySelectorAll(".box1 button");
 const rightButtons = document.querySelectorAll(".box2 button");
+const p1 = document.querySelector(".online-price")
+const p2 = document.querySelector(".online-currency")
 
 const url = "https://api.exchangerate.host/latest?";
 let leftCurrency = '';
-
 function changeCurrency(event, whichSide, currency) {
   if (whichSide === "left") {
     leftCurrency = currency;
